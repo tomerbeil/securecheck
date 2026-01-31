@@ -60,6 +60,7 @@ coverage/
 
 
 *.json
+!motsy.json
 *.snap
 *.dump
 **/security_log.json

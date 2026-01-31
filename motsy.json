@@ -1,0 +1,9 @@
+{
+  "mappings": [
+    {
+      "format": "ANDROID_XML",
+      "sourcePattern": "app/src/main/res/values/strings.xml",
+      "targetPattern": "app/src/main/res/values-{androidCode}/strings.xml"
+    }
+  ]
+}
