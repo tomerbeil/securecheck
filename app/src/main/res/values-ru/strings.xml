@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SecureCheck</string>
+
+    <string name="danger_root">Обнаружен root-доступ</string>
+    <string name="suggestion_root">Устройство не должно иметь root-прав. Рекомендуется установить официальную прошивку.</string>
+
+    <string name="danger_debugger">Приложение запущено в режиме отладки</string>
+    <string name="suggestion_debugger">Соберите приложение в режиме release для обеспечения безопасности.</string>
+
+    <string name="danger_installer">Установлено не из Google Play</string>
+    <string name="suggestion_installer">Устанавливайте приложения только из Google Play для проверки их целостности.</string>
+
+    <string name="danger_signature">Ошибка проверки подписи</string>
+    <string name="suggestion_signature">Не удалось проверить подпись APK.</string>
+
+    <string name="danger_safetynet">Проверка SafetyNet не пройдена</string>
+    <string name="suggestion_safetynet">Устройство не прошло проверку SafetyNet.</string>
+
+    <string name="danger_integrity">Сбой Play Integrity</string>
+    <string name="suggestion_integrity">Возможно, устройство было взломано или оно не является доверенным.</string>
+
+    <string name="danger_tamper">Обнаружено несанкционированное изменение APK</string>
+    <string name="suggestion_tamper">APK-файл мог быть изменен или перепакован.</string>
+
+    <string name="danger_obfuscation">Код не обфусцирован</string>
+    <string name="suggestion_obfuscation">Рекомендуется включить ProGuard или R8 для защиты кода.</string>
+
+    <string name="danger_storage">Зашифрованное хранилище не обнаружено</string>
+    <string name="suggestion_storage">Используйте EncryptedFile или EncryptedSharedPreferences.</string>
+
+    <string name="danger_exported">Обнаружены экспортируемые компоненты</string>
+    <string name="suggestion_exported">Ограничьте видимость компонентов в AndroidManifest.</string>
+
+    <string name="danger_pending_intent">PendingIntent не является неизменяемым</string>
+    <string name="suggestion_pending_intent">Добавьте FLAG_IMMUTABLE, следуя рекомендациям по обеспечению безопасности.</string>
+
+    <string name="danger_ssl_pinning">Ошибка SSL-пиннинга</string>
+    <string name="suggestion_ssl_pinning">Не удалось проверить сертификат сервера.</string>
+
+    <string name="danger_intent_hijack">Интент может быть перехвачен</string>
+    <string name="suggestion_intent_hijack">Используйте явные интенты или ограничьте фильтры интентов.</string>
+
+    <string name="danger_debuggable">Приложение доступно для отладки</string>
+    <string name="suggestion_debuggable">Удалите debuggable=true из манифеста.</string>
+
+    <string name="danger_dex">Динамическая загрузка файла DEX</string>
+    <string name="suggestion_dex">Избегайте динамической загрузки кода для повышения безопасности.</string>
+
+    <string name="danger_reflection">Обнаружена рефлексия</string>
+    <string name="suggestion_reflection">Избегайте избыточного использования рефлексии.</string>
+
+    <string name="danger_frida">Обнаружены следы хуков Frida</string>
+    <string name="suggestion_frida">На устройстве может быть активен фреймворк Frida.</string>
+
+    <string name="danger_xposed_check">Обнаружен Xposed</string>
+    <string name="suggestion_xposed_check">Приложение может работать в небезопасной среде.</string>
+
+    <string name="danger_webview_js">JavaScript включен в WebView</string>
+    <string name="suggestion_webview_js">Отключите JavaScript, если он не обязателен.</string>
+
+    <string name="danger_webview_file">Разрешен доступ WebView к файлам</string>
+    <string name="suggestion_webview_file">Ограничьте доступ к файлам для повышения безопасности.</string>
+
+    <string name="danger_webview_interface">Обнаружен небезопасный JS-интерфейс</string>
+    <string name="suggestion_webview_interface">Проверьте JS-интерфейсы на наличие утечек данных.</string>
+
+    <string name="export_report">Экспортировать отчет</string>
+</resources>
